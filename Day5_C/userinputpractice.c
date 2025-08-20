@@ -24,7 +24,7 @@ int main(){
     printf("Student Information:\n");
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
-    printf("ID: %d\n", ID);
+    printf("College ID: %d\n", ID);
     printf("Course: %s", course);
     return 0;
 }
