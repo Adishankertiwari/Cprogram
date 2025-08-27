@@ -6,12 +6,9 @@ int main() {
     char operator;
     float result;
 
-    printf("Enter first number: ");
-    scanf("%d", &a);
-    printf("Enter second number: ");
-    scanf("%d", &b);
-    printf("Enter operator (+, -, *, /): ");
-    scanf(" %c", &operator);
+    printf("Enter a simple two digit mathematical operation: ");
+    scanf("%d %c%d", &a, &operator, &b);
+   
 
     switch (operator) {
         case '+':
