@@ -8,7 +8,7 @@ int main(){
     const PI = 3.14;
 
     printf("Enter the radius :");
-    scanf("%f", &Radius);
+    scanf("%.2f", &Radius);
     Area = PI*Radius*Radius;
     Circumference = 2*PI*Radius;
 
